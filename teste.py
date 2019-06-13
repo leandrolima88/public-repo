@@ -3,11 +3,6 @@ import re
 import os.path
 import definitions
 from datetime import *
-import sys
-import re
-import os.path
-import definitions
-from datetime import *
 
 
 #Logs
@@ -94,6 +89,12 @@ recurso = 'Iron'
 pump_all = 0
 tentativa = 0
 pump_allf = 0
+
+break
+continue
+
+if statment > 0:
+print 0
 
 def fast():
     print 'Buscando recurso', recurso,'...'

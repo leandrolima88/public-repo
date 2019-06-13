@@ -3,13 +3,19 @@ import re
 import os.path
 import definitions
 from datetime import *
+import sys
+import re
+import os.path
+import definitions
+from datetime import *
+
 
 #Logs
 Settings.ActionLogs = True
 Settings.InfoLogs = True
 Settings.DebugLogs = True
 Settings.LogTime = True
-Debug.setLogFile(C:UsersPichauDesktopLssBotMacroSikulilogsup_iron_log.txt)
+ Debug.setLogFile(C:UsersPichauDesktopLssBotMacroSikulilogsup_iron_log.txt)
 
 # Settings
 setBundlePath('C:\Users\Pichau\Desktop\LssBot\MacroSikuli\Imagens') # Define o diretório das imagens.

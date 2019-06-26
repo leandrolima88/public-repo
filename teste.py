@@ -1,7 +1,5 @@
-import sys
 import re
 import os.path
-import definitions
 from datetime import *
 
 
